@@ -1,0 +1,19 @@
+{
+  "default": {
+    "type": "messages",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一个AI助手，能够回答各种问题并提供帮助。"
+      },
+      {
+        "role": "user",
+        "content": "{message}"
+      }
+    ]
+  },
+  "simple": {
+    "type": "template",
+    "template": "{message}"
+  }
+}

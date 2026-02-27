@@ -1,0 +1,15 @@
+{
+  "custom_example": {
+    "type": "messages",
+    "messages": [
+      {
+        "role": "system",
+        "content": "这是一个自定义提示词示例，您可以根据业务需求修改这里的内容。"
+      },
+      {
+        "role": "user",
+        "content": "{message}"
+      }
+    ]
+  }
+}
